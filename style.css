@@ -1,0 +1,145 @@
+html,body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+/*--------------------------------------------*/
+header{
+    background-color: #1F2937 ;
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0 15px; 
+    color: #F9FAF8;
+}
+.links{
+    font-size: 15px;
+    margin: 0 15px; 
+    color: #F9FAF8;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+/*--------------------------------------------*/
+main.Primero{
+    background-color: #1F2937;
+    height: 640px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+
+}
+.Hero{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0 30px;
+    padding: 15px;
+}
+
+.Antihero{
+    color: #E5E7eb;
+    font-size: 18px;
+    margin: 0 30px;
+    padding: 15px;
+}
+.imagen{
+    padding: 0 30px;
+    background: gray;
+    width: 40%;
+    height: 300px;
+    margin: 0 30px;
+}
+button{
+    background-color: #3882F6;
+    color: #E5E7eb;
+    margin: 0 40px;
+    border-radius: 5px;
+    padding: 4px 15px;
+    border: none;
+}
+
+/*---------------------------------------------*/
+main.Segundo{
+    background-color: #F9FAF8;
+    height: 680px;
+    padding: 20px;
+}
+.segundoTitulo{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.Productos{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+img{
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+    padding: 50px;
+}
+ p{
+    text-align: center;
+ }
+
+/*----------------------------------------------*/
+main.Tercero{
+    background-color:#E5E7eb;
+    height: 680px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Cita{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    text-align: center;
+}
+/*-----------------------------------------------*/
+main.Cuarto{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner{
+    background-color: #3882F6;
+    color: #E5E7eb;
+    padding: 10px 80px;
+    border-radius: 10px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.ban{
+    border: 1px solid #E5E7eb ;
+}
+
+/*---------------------------------------------------*/
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+    background-color: #1F2937;
+}
